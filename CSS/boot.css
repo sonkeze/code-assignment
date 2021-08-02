@@ -1,0 +1,68 @@
+
+.navbar-brand{
+	padding: 15px;
+}
+
+h1{
+	text-align: center;
+	font-size: 3rem;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	padding: 15px;
+}
+
+h2{
+	text-align: center;
+	
+}
+
+section{
+	padding: 10px;
+	background-color: gray;
+	width: auto;
+	margin-top: 6px;
+}
+
+#icon-b{
+	border-bottom: 1px solid gray;
+	border-top: 1px solid gray;
+}
+#btn{
+	margin: 15px;
+}
+
+
+.row{
+	margin: 10px 0px 10px;
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 760px){
+	.nav-link{
+		text-align: center;
+		padding: 20px;
+		border-bottom: 1px solid #eee;
+	}
+
+.row{
+	   position: relative;
+	   height: 700px;
+		
+	}
+	section{
+		width: 60%;
+		height: 550px;
+		overflow: hidden;
+		padding: 30px;
+		position: absolute;
+		left: 20%;
+		right: 50%;
+
+	}
+
+}
+@media screen and (min-width: 992px){
+	.container{
+		width: 90%;
+	}
+}
